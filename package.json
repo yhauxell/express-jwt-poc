@@ -1,0 +1,19 @@
+{
+  "name": "expressjwtpoc",
+  "version": "1.0.0",
+  "description": "PoC para integrar JWT con express en primera instancia",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "jwt",
+    "express"
+  ],
+  "author": "yhauxell@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0"
+  }
+}
