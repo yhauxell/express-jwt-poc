@@ -20,3 +20,6 @@ passport.use(
     return done(null, true);
   })
 );
+
+
+module.exports = passport;

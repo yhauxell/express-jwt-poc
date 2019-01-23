@@ -1,8 +1,8 @@
 var express = require("express");
 var app = express();
-const passport = require("passport");
+//const passport = require("passport");
 var jwt = require("jsonwebtoken");
-const strategies = require("./config/passport-strategies");
+const passport = require("./config/passport-strategies");
 //generate token
 app.get("/gen", function(req, res) {
   var token = jwt.sign({ sub: "yhauxell" }, "secret-phrase", {
